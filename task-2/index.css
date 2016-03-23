@@ -1,0 +1,164 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+body {
+  background: #dedede;
+}
+
+header {
+  margin: 0;
+  padding: 0 2rem;
+  background: #333;
+  overflow: hidden;
+}
+
+header img {
+  float: left;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  font-size: 0.7rem;
+  display: inline-block;
+  list-style: circle;
+}
+
+header ul li a {
+  color: #fff;
+}
+
+article {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  background: #fff;
+}
+
+article p {
+  text-indent: 1.25rem;
+}
+
+article h3,
+article h4 {
+  color: #696F76;
+}
+
+article h4 {
+  font-weight: normal;
+}
+
+article ul,
+article ol {
+  margin: 1rem;
+}
+
+.pic {
+  border: 1px solid #000;
+  width: 10.5rem;
+  padding: 1rem;
+  margin: 1rem 2rem;
+}
+
+.author {
+  margin-right: 1rem;
+}
+
+table, tr, td {
+  border: 1px solid #d3d3d3;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #333;
+  color: #fff;
+}
+
+.bottom-table {
+  background: #d3d3d3;
+  font-weight: bold;
+}
+
+nav {
+  width: 86%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: #fff;
+}
+
+form {
+  font-size: 0.7rem;
+  width: 60%;
+  margin: auto;
+}
+
+form div {
+  margin: 0.5rem 0;
+}
+
+form textarea {
+  vertical-align: top;
+}
+
+.side-border {
+  border-left: 0.3rem solid #d3d3d3;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.info-title {
+  display: inline-block;
+  width: 30%;
+  margin-right: 0.5rem;
+  text-align: right;
+}
+
+.info-hint {
+  margin: 0;
+  margin-left: 32%;
+  color: #B0A7AE;
+}
+
+.submit {
+  background: #3355D0;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+footer {
+  color: #fff;
+  background: #000;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.box-shadow {
+  border: 1px solid #d3d3d3;
+  box-shadow: 0.25rem 0.25rem 0 #8f8f8f;
+}
+
+.none-list-style li {
+  list-style-type: none;
+}
